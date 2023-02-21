@@ -3,10 +3,8 @@ name: Asep Rendi
 avatar: /static/images/profile_me.jpg
 occupation: Jamstack Developer
 company: Freelance
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+email: aseprendi487@gmail.com
+github: https://github.com/asep19
 ---
 
 Asep is a Jamstack Developer based on Bandung, Indonesia.
