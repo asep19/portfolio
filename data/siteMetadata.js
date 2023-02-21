@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Asep Rendi Home',
+  title: 'Asep Rendi',
   author: 'Asep Rendi',
   headerTitle: 'aseprendi.',
   description: 'A portfolio created with Next.js and Tailwind.css',

@@ -13,7 +13,7 @@ Asep is a Jamstack Developer based on Bandung, Indonesia.
 
 #### Software
 
-- This website is hosted on Vercel ans use Nextjs framework
+- This website is hosted on Vercel and use Nextjs framework
 - Text editor: Lunarvim (Neovim preconfigured)
 - Terminal: Gnome Terminal
 - Productivity: Ticktick(Todo app), Chrome
