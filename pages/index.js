@@ -41,9 +41,9 @@ export default function Home({ posts }) {
           <h1 className="text-3xl pt-4">Hi, I'm {siteMetadata.author}</h1>
           <p className="font-semibold pb-6">Frontend Developer</p>
           <p className="text-slate-500">
-            a full-stack JavaScript developer. I have over 6 years of experience developing
-            websites. I enjoy working on both front-end and backend. My go to library on front-end
-            is React, and NodeJS on backend.
+            a Jamstack developer. i have over 2 years of experience developing websites. i enjoy
+            working on both front-end and backend. my go to library on front-end is Nextjs, and
+            NodeJS on backend.
           </p>
         </div>
       </section>
