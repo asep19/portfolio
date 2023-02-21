@@ -2,7 +2,7 @@
 name: Asep Rendi
 avatar: /static/images/profile_me.jpg
 occupation: Jamstack Developer
-company: stanford university
+company: Freelance
 email: address@yoursite.com
 twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com
