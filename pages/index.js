@@ -54,10 +54,10 @@ export default function Home({ posts }) {
         <div className="mt-4 flex flex-col sm:flex-row sm:flex-wrap md:flex-nowrap items-center sm:items-stretch space-y-10 sm:space-y-0">
           {projectsData.slice(0, MAX_PROJECTS_DISPLAY).map((item) => (
             <Card
-              key={item.title}
+              key={item.id}
               title={item.title}
-              description={item.description}
-              imgSrc={item.imgSrc}
+              description={item.summary}
+              imgSrc={item.thumbnail}
               href={item.href}
             />
           ))}
