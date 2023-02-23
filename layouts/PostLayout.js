@@ -44,7 +44,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
           {/* </div> */}
 
           {/* Header v1 */}
-          <div className="pb-4 border-b border-b-gray-100 dark:border-b-gray-700">
+          <div className="pb-4 pt-8 border-b border-b-gray-100 dark:border-b-gray-700">
             <PageTitle>{title}</PageTitle>
             <p className="pt-1 text-base leading-6 text-gray-500 dark:text-gray-400">
               Published on {` ${formatDate(date)}`}

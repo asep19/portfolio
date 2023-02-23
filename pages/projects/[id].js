@@ -9,7 +9,7 @@ export default function Project({ project }) {
 
   return (
     <section className="max-w-[550px] mx-auto ">
-      <h1 className="text-xl font-medium mb-2">{project.title}</h1>
+      <h1 className="text-xl font-medium mb-2 mt-4">{project.title}</h1>
       <p className="indent-6">{project.description}</p>
       <ul className="space-y-1 mt-6">
         <li>

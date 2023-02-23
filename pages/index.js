@@ -50,8 +50,9 @@ export default function Home({ posts }) {
 
       {/* Projects showcase */}
       <section className="max-w-[700px] mx-auto pt-16">
-        <h2 className="text-xl font-semibold">Featured Works</h2>
-        <div className="mt-4 flex flex-col sm:flex-row sm:flex-wrap md:flex-nowrap items-center sm:items-stretch space-y-10 sm:space-y-0">
+        <h2 className="text-center md:text-left text-xl font-semibold">Featured Works</h2>
+        {/* <div className="mt-4 flex flex-col sm:flex-row sm:flex-wrap md:flex-nowrap items-center sm:items-stretch space-y-10 sm:space-y-0"> */}
+        <div className="flex flex-col items-center justify-center md:flex-row md:flex-wrap md:space-x-6 lg:flex-nowrap">
           {projectsData.slice(0, MAX_PROJECTS_DISPLAY).map((item) => (
             <Card
               key={item.id}
@@ -77,13 +78,16 @@ export default function Home({ posts }) {
               <li key={slug}>
                 <article className="py-4 rounded-md">
                   <Link href={`/blog/${slug}`}>
-                    <div className="flex justify-between items-center">
+                    <div className="md:flex justify-between items-center">
+                      <div className="text-xs md:text-sm md:order-1 text-gray-500 dark:text-gray-400">
+                        {formatDate(date)}
+                      </div>
                       <h3 className="text-lg text-black/80 dark:text-white font-semibold">
                         {title}
                       </h3>
-                      <div className="text-sm text-gray-500 dark:text-gray-400">
-                        {formatDate(date)}
-                      </div>
+                      {/* <div className="text-sm text-gray-500 dark:text-gray-400"> */}
+                      {/*   {formatDate(date)} */}
+                      {/* </div> */}
                     </div>
                     <div>
                       {tags.map((tag) => (
