@@ -60,14 +60,14 @@ Asep is a Jamstack Developer based on Bandung, Indonesia.
 
 #### Developer/Designer
 
-- Brad Traversy - https://www.youtube.com/@TraversyMedia
-- Tania Rascia - https://www.taniarascia.com/
-- Zell Liew - https://zellwk.com/
-- Emmanuel Ohans - https://www.freecodecamp.org/news/author/emmanuel/
-- Ahmad Shadeed - https://ishadeed.com/
-- Oliver James - https://www.internetingishard.com
-- Reed Bager - https://www.freecodecamp.org/news/author/reed/
-- Rad Devon - https://raddevon.com/
+- [Brad Traversy](https://www.youtube.com/@TraversyMedia)
+- [Tania Rascia](https://www.taniarascia.com/)
+- [Zell Liew](https://zellwk.com/)
+- [Emmanuel Ohans](https://www.freecodecamp.org/news/author/emmanuel/)
+- [Ahmad Shadeed](https://ishadeed.com/)
+- [Oliver James](https://www.internetingishard.com)
+- [Reed Bager](https://www.freecodecamp.org/news/author/reed/)
+- [Rad Devon](https://raddevon.com/)
 
 #### Speakers
 
