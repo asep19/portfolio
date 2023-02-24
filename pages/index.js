@@ -12,7 +12,7 @@ import Card from '@/components/Card'
 // import NewsletterForm from '@/components/NewsletterForm'
 
 const MAX_DISPLAY = 5
-const MAX_PROJECTS_DISPLAY = 3
+const MAX_PROJECTS_DISPLAY = 2
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('blog')
@@ -50,9 +50,9 @@ export default function Home({ posts }) {
 
       {/* Projects showcase */}
       <section className="max-w-[700px] mx-auto pt-16">
-        <h2 className="text-center md:text-left text-xl font-semibold">Featured Works</h2>
+        <h2 className="text-center md:text-left text-xl font-semibold mb-6">Featured Works</h2>
         {/* <div className="mt-4 flex flex-col sm:flex-row sm:flex-wrap md:flex-nowrap items-center sm:items-stretch space-y-10 sm:space-y-0"> */}
-        <div className="flex flex-col items-center justify-center md:flex-row md:flex-wrap md:space-x-6 lg:flex-nowrap">
+        <div className="flex flex-col items-center justify-center md:flex-row md:flex-wrap lg:flex-nowrap">
           {projectsData.slice(0, MAX_PROJECTS_DISPLAY).map((item) => (
             <Card
               key={item.id}
