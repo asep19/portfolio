@@ -9,11 +9,10 @@ github: https://github.com/asep19
 
 Asep is a Jamstack Developer based on Bandung, Indonesia.
 
-### Tools
+### Tools i use
 
 #### Software
 
-- This website is hosted on Vercel and use Nextjs framework
 - Text editor: Lunarvim (Neovim preconfigured)
 - Terminal: Gnome Terminal
 - Productivity: Ticktick(Todo app), Chrome
@@ -46,7 +45,7 @@ Asep is a Jamstack Developer based on Bandung, Indonesia.
 - Vs Code
 - Lunarvim
 
-### Songs, Musics, Orchestra, Instrument
+### My favorite Songs
 
 - [Fuyu Biyori](https://www.youtube.com/watch?v=0EX3tQWswj0) - Eri Sasaki
 - [Try Everythings by Shakira](https://www.youtube.com/watch?v=c6rP-YP4c5I). Soundtrack Zootopia
