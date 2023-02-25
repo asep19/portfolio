@@ -74,6 +74,29 @@ const projectsData = [
     stack: ['Next.js', 'Tailwindcss'],
     href: '/projects/4',
   },
+  {
+    id: 5,
+    title: 'Realtor Website',
+    summary: 'Realestate web design',
+    description: 'Beautiful Realestate web design. you and your family, will have power. ',
+    thumbnail: '/static/images/projects/realtor.png',
+    url: 'https://realtor.com',
+    images: [
+      {
+        id: 1,
+        alt: 'screenshoot of realtor.com page',
+        imgSrc: '/static/images/projects/realtor-2.png',
+      },
+      {
+        id: 2,
+        alt: 'screenshoot of realtor.com page',
+        imgSrc: '/static/images/projects/realtor-3.png',
+      },
+    ],
+    role: ['Fullstack developer'],
+    stack: ['Next.js', 'Tailwindcss'],
+    href: '/projects/5',
+  },
 ]
 
 export default projectsData
